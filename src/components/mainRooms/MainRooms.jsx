@@ -4,7 +4,8 @@ import Family from "../../assets/images/roomsImages/familyImages/aile.jpg";
 import {BsFillPeopleFill} from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 const MainRooms = () => {
-  return <section id="Rooms Cards" className="bg-neutral-800">
+  return <section id="Rooms Cards" className="bg-neutral-800 py-[15px]">
+    <h3 className="text-[30px] italic uppercase font-bold leading-[20px] font-['Raleway'] text-[#fff] py-3">Odalarımız</h3>
     <div className="flex min-h-[500px] items-center justify-center">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-col-3">
             <div className="group relative cursor-pointer items-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -13,7 +14,7 @@ const MainRooms = () => {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                    <h1 className="font-['Raleway'] text-[#fff] text-[24px] font-bold leading-[30px] mb-9">Standart Oda</h1>
+                    <h1 className="font-['Raleway'] text-[#fff] text-[24px] font-bold leading-[30px] mb-11">Standart Oda</h1>
                     <span className="mb-3 text-[14px] font-normal italic leading-[1.2] text-[#fff] flex justify-center items-center  ">
                         <BsFillPeopleFill color="#fff" size={18}/> 1-3 kişi arasında Konaklama
                     </span> 
@@ -27,7 +28,7 @@ const MainRooms = () => {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                    <h1 className="font-['Raleway'] text-[#fff] text-[24px] font-bold leading-[30px] mb-9">Aile Odası</h1>
+                    <h1 className="font-['Raleway'] text-[#fff] text-[24px] font-bold leading-[30px] mb-11">Aile Odası</h1>
                     <span className="mb-3 text-[14px] font-normal italic leading-[1.2] text-[#fff] flex justify-center items-center  ">
                         <BsFillPeopleFill color="#fff" size={18}/> 1-5 kişi arasında Konaklama
                     </span> 
@@ -41,7 +42,7 @@ const MainRooms = () => {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                    <h1 className="font-['Raleway'] text-[#fff] text-[24px] font-bold leading-[30px] mb-9">Geniş Oda</h1>
+                    <h1 className="font-['Raleway'] text-[#fff] text-[24px] font-bold leading-[30px] mb-16">Geniş Oda</h1>
                     <span className="mb-3 text-[14px] font-normal italic leading-[1.2] text-[#fff] flex justify-center items-center  ">
                         <BsFillPeopleFill color="#fff" size={18}/> 1-4 kişi arasında Konaklama
                     </span> 
