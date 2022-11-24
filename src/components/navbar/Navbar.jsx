@@ -3,7 +3,7 @@ import {GiHamburgerMenu} from "react-icons/gi";
 import {RiArrowDropDownFill} from "react-icons/ri";
 import {GrClose} from "react-icons/gr";
 import { NavLink } from "react-router-dom";
-
+import Logo from "../../assets/ıcons/CLUB-VASA-1.png"
 const Navbar = () => {
     const [toggleNav,setToggleNav] = useState(false);
     const [activeLink,setActiveLink] = useState(false);
@@ -23,10 +23,10 @@ const Navbar = () => {
         }
       };
       window.addEventListener("scroll", changeBackground);
-  return <nav className="fixed w-full  ">
+  return <nav className="fixed w-full z-[99]  ">
     <div className={navbar ? "flex justify-between lg:justify-evenly items-center w-full bg-[#2e2e2e] ease-in duration-500":"flex justify-between lg:justify-evenly items-center w-full bg-transparent "}>
         <div className="h-[80px]">
-            <img src="https://www.wasahotel.com/images/logo.png" className="h-[100%]" alt="logo" />           
+            <img src={Logo} className="h-[100%]" alt="logo" />           
         </div>
         <div className="hidden lg:flex lg:flex-row lg:justify-between lg:items-center">
         <ul className="flex flex-row justify-between gap-4 ">
@@ -76,7 +76,7 @@ const Navbar = () => {
     <div className={toggleNav ? "lg:hidden fixed left-0 top-0 w-full h-screen bg-black/60 ":""}>
         <div className={toggleNav ? "fixed left-0 top-0 w-[70%] sm:w-[30%] md:w-[45%] h-screen bg-[#18191b] ease-in duration-200" : "fixed left-[-100%] top-0  ease-in duration-500 h-screen"}>
             <div className="flex flex-row justify-between items-center ">
-                <img src="https://www.wasahotel.com/images/logo.png" alt="logo Sidebar" className="h-[80px]  " />
+                <img src={Logo}  alt="logo Sidebar" className="h-[80px]  " />
               
                 <GrClose size={30}  className="bg-[#b55b02]" onClick={handleNav}/>
             </div>
