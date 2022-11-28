@@ -52,7 +52,7 @@ const Navbar = () => {
                     </ul>
                 </div></li>
             <li className="relative">
-                <NavLink to="/" className=" font-bold font-['Raleway'] text-[18px] text-[#fff] uppercase hover:text-[#b55b02] transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-700 before:bg-gradient-to-r before:from-gray-400 before:via-slate-300 before:to-zinc-300 hover:before:w-full hover:before:opacity-100">Hizmetlerimiz</NavLink>
+                <NavLink to="/hizmetlerimiz" className=" font-bold font-['Raleway'] text-[18px] text-[#fff] uppercase hover:text-[#b55b02] transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-700 before:bg-gradient-to-r before:from-gray-400 before:via-slate-300 before:to-zinc-300 hover:before:w-full hover:before:opacity-100">Hizmetlerimiz</NavLink>
             </li>
             <li className="relative">
                 <NavLink to="/hakkımızda" className="  font-bold font-['Raleway'] text-[18px] text-[#fff] uppercase hover:text-[#b55b02] transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-700 before:bg-gradient-to-r before:from-gray-400 before:via-slate-300 before:to-zinc-300 hover:before:w-full hover:before:opacity-100 ">Hakkımızda</NavLink>
@@ -104,7 +104,7 @@ const Navbar = () => {
                 </div>
             </li>
             <li className="relative">
-                <NavLink to="/" className=" font-bold font-['Raleway'] text-[18px] text-[#fff] uppercase hover:text-[#b55b02] transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-700 before:bg-gradient-to-r before:from-gray-400 before:via-slate-300 before:to-zinc-300 hover:before:w-full hover:before:opacity-100">Hizmetlerimiz</NavLink>
+                <NavLink to="/hizmetlerimiz" className=" font-bold font-['Raleway'] text-[18px] text-[#fff] uppercase hover:text-[#b55b02] transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-700 before:bg-gradient-to-r before:from-gray-400 before:via-slate-300 before:to-zinc-300 hover:before:w-full hover:before:opacity-100">Hizmetlerimiz</NavLink>
             </li>
             <li className="relative">
                 <NavLink to="/hakkımızda" className=" active:text-[#b55b02] font-bold font-['Raleway'] text-[18px] text-[#fff] uppercase hover:text-[#b55b02] transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-700 before:bg-gradient-to-r before:from-gray-400 before:via-slate-300 before:to-zinc-300 hover:before:w-full hover:before:opacity-100 ">Hakkımızda</NavLink>

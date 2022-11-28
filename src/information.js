@@ -6,6 +6,7 @@ const information = [
     desc:"Otelimiz sahile 0 km, Gazipaşa Havalimanına 55 km , Alanya merkeze 12 km ve Antalya Havalimanına ise 112 km uzaklıktadır.",
     title2:"Tesis Hakkında",
     desc2:"İnternet,Kuru temizleme, Havaalanına servis, Araba, Bisiklet ve Bebek arabası kiralama, Telefon hizmeti Fotokopi, Faks hizmetlerimizden ücretli olarak faydalanabilirsiniz..."
+    
 },
 {
     id:2,
